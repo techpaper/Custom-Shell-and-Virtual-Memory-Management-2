@@ -15,3 +15,4 @@ run3: demo3
 
 clean: 
 	rm demo1 demo2 demo3 out1.txt out2.txt out3.txt
+	

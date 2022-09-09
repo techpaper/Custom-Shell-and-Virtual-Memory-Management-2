@@ -372,6 +372,7 @@ void worker(int shmid, pid_t pid, int work_num) {
             sleep(rand() % 2);
             continue;
         }
+        
         cout << "<------------------------------------ Retrieved Job "
                 "------------------------------------------>"
              << endl;

@@ -6,6 +6,7 @@ using namespace std;
 
 VMemory vmem;
 
+
 void fibonacci(integer k) {
     vmem.fn_begin();
     integer var = vmem.createArr(INTEGER, vmem.readVar(k));

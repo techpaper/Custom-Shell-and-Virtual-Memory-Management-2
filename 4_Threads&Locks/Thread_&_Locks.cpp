@@ -238,6 +238,7 @@ int main() {
 
     Shared *shm = init_shm(shm_id);
 
+
     int producer_threads = 15, consumer_threads = 12;
     cout << "producer threads : ";
     cin >> producer_threads;

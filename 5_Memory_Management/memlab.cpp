@@ -12,6 +12,7 @@ void Stack::push(int data) {
     arr[top_pos] = data;
 }
 
+
 int Stack::empty() { return (top_pos == -1); }
 
 void Stack::pop() {

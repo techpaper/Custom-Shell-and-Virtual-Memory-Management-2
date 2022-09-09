@@ -38,6 +38,7 @@ void fun4(mid_integer x, mid_integer y) {
     }
     vmem.fn_end();
 }
+
 void fun5(integer x, integer y) {
     vmem.fn_begin();
     integer var = vmem.createArr(INTEGER, 50000);

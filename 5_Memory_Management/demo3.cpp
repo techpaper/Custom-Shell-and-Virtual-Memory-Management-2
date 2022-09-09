@@ -38,6 +38,7 @@ int main() {
     usleep(100);
     cout << "Variable read : " << vmem.readVar(var) << endl;
 
+
     vmem.fn_end();
     return 0;
 }
